@@ -8,4 +8,5 @@ const UserSlice = createSlice({
         DeleteUsers (state, action) {}
     }
 })
-export {UserSlice};
+export const { AddUser, RemoveUser, DeleteUsers } = UserSlice.actions;
+export default UserSlice.reducer;
