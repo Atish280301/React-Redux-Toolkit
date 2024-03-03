@@ -8,6 +8,7 @@ const DisplayUsers = () => {
     })
     console.log(data);
     const DeleteUser = (id) => {
+        console.log("hiiiii");
         dispatch(RemoveUser(id));
     }
     return (<>
